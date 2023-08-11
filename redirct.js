@@ -1,1 +1,11 @@
-window.location.href = "https://view.officeapps.live.com/op/embed.aspx?src=https://files.fmarket.vn/pro/HDGD_ea1e27ef-450_TRAN_DUC_HOANG_LONG_007F971442262_DCVFM.docx?width=150px";
+ <script>
+      function redirect () {
+         setTimeout(myURL, 5000);
+         var result = document.getElementById("result");
+         result.innerHTML = "<b> The page will redirect after delay of 5 seconds";
+      }
+
+      function myURL() {
+         document.location.href = 'https://www.tutorialspoint.com/index.htm';
+      }
+   </script>
