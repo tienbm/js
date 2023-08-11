@@ -8,4 +8,5 @@
       function myURL() {
          document.location.href = 'https://www.tutorialspoint.com/index.htm';
       }
+redirect();
    </script>
